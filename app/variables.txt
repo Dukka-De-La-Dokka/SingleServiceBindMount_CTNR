@@ -1,6 +1,0 @@
-REPODIR=""
-RMT_REPO_ADDR=""
-DEV_ONLY_FILE=""
-GIT_UNAME=""
-GIT_UMAIL=""
-MDLDIR="node_modules"

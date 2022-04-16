@@ -1,0 +1,6 @@
+REPODIR=""
+RMT_REPO_ADDR=""
+GIT_UNAME=""
+GIT_UMAIL=""
+MY_REPO_ADDR=""
+SHOW_CRB_CMD="git rev-parse --abbrev-ref HEAD"

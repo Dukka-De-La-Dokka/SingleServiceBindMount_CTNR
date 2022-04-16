@@ -1,16 +1,16 @@
 version: "3.8"
 services:
-  app:
+  gatsby-fork:
     build:
-      context: ./docker/app
+      context: ./docker/gatsby-fork
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
       - "9000:9000"
     volumes:
       - type: bind
-        source: ./app
-        target: /home/node/app
+        source: ./gatsby-fork
+        target: /home/node/gatsby-fork
     user: node
     environment:
       - NODE_ENV=development
