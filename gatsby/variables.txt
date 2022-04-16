@@ -1,5 +1,5 @@
-REPODIR=""
-RMT_REPO_ADDR=""
+REPODIR="gatsby-repo-name"
+RMT_REPO_ADDR="gatsby-repo-address"
 DEV_ONLY_FILE=""
 GIT_UNAME=""
 GIT_UMAIL=""
