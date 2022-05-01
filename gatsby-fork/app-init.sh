@@ -5,6 +5,12 @@
 
 # Getting variables from external txt file
 . ./variables.txt
+# This is a recommended setting for VSCode users
+if [ -d "$VSCDIR" ]; then
+    if [ ! -f "$VSCJSON" ]; then
+        echo -e "$VSCSET" >"$VSCJSON"
+    fi
+fi
 # Store git-credentials at container home dir upon first time git authorization
 git config --global credential.helper store
 # Git user info set globally prior to gatsby new installation

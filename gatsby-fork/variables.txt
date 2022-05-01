@@ -4,3 +4,6 @@ GIT_UNAME=""
 GIT_UMAIL=""
 MY_REPO_ADDR=""
 SHOW_CRB_CMD="git rev-parse --abbrev-ref HEAD"
+VSCDIR="$HOME/.vscode-server"
+VSCJSON="$HOME/.vscode-server/data/Machine/settings.json"
+VSCSET='{\n\t"remote.containers.gitCredentialHelperConfigLocation": "none",\n\t"github.gitAuthentication": false\n}'
