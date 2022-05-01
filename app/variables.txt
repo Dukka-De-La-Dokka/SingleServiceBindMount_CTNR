@@ -4,3 +4,6 @@ DEV_ONLY_FILE=""
 GIT_UNAME=""
 GIT_UMAIL=""
 MDLDIR="node_modules"
+VSCDIR="$HOME/.vscode-server"
+VSCJSON="$HOME/.vscode-server/data/Machine/settings.json"
+VSCSET='{\n\t"remote.containers.gitCredentialHelperConfigLocation": "none",\n\t"github.gitAuthentication": false\n}'
