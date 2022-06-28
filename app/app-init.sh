@@ -30,6 +30,8 @@ git config user.email "$GIT_UMAIL"
 # If you want to use VSCode as git editor
 if [ -d "$VSCDIR" ]; then
     git config core.editor "code --wait"
+else
+    git config core.editor "vim"
 fi
 # Module installation if necessary
 if [ ! -d "$MDLDIR" ]; then
