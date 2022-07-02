@@ -5,6 +5,6 @@ WORKDIR /home/node/gatsby
 # Update
 RUN apt-get update && apt-get upgrade -y
 # Install vim & jq
-Run apt-get install vim jq -y
+RUN apt-get install vim jq -y
 # Expose port for app development
 EXPOSE 8000 9000
